@@ -9,22 +9,23 @@
         <link rel="dns-prefetch" href="http://yoursite.com">
         <title>
             
-                Hello World |
+                回调函数浅解 |
                     
                         一许西
         </title>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+        <meta name="description" content="1. 什么是回调函数？1234因为函数实际上是一种对象，它可以存储在变量中，通过参数传递给另一个函数，在函数内部创建，从函数中返回结果值，再者，函数是内置对象，我们可以将它作为参数传递给另一个函数，到函数中执行。简单说回调函数就是一个作为变量传递给另外一个函数的函数，它在主体函数执行完之后执行。例如：function A有一个参数function B，function B会在function A执">
+<meta name="keywords" content="回调函数之简易网页计算器">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://yoursite.com/2018/11/16/hello-world/index.html">
+<meta property="og:title" content="回调函数浅解">
+<meta property="og:url" content="http://yoursite.com/2018/11/21/回调函数浅解/index.html">
 <meta property="og:site_name" content="一许西">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="1. 什么是回调函数？1234因为函数实际上是一种对象，它可以存储在变量中，通过参数传递给另一个函数，在函数内部创建，从函数中返回结果值，再者，函数是内置对象，我们可以将它作为参数传递给另一个函数，到函数中执行。简单说回调函数就是一个作为变量传递给另外一个函数的函数，它在主体函数执行完之后执行。例如：function A有一个参数function B，function B会在function A执">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-11-16T07:05:19.690Z">
+<meta property="og:updated_time" content="2018-11-21T16:41:57.268Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta name="twitter:title" content="回调函数浅解">
+<meta name="twitter:description" content="1. 什么是回调函数？1234因为函数实际上是一种对象，它可以存储在变量中，通过参数传递给另一个函数，在函数内部创建，从函数中返回结果值，再者，函数是内置对象，我们可以将它作为参数传递给另一个函数，到函数中执行。简单说回调函数就是一个作为变量传递给另外一个函数的函数，它在主体函数执行完之后执行。例如：function A有一个参数function B，function B会在function A执">
             
                 <link rel="alternative" href="/atom.xml" title="一许西" type="application/atom+xml">
                 
@@ -164,35 +165,37 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-hello-world" class="article article-type-post " itemscope="" itemprop="blogPost">
+            <article id="post-回调函数浅解" class="article article-type-post " itemscope="" itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      Hello World
+      回调函数浅解
     </h1>
   
 
         
-        <a href="/2018/11/16/hello-world/" class="archive-article-date">
-  	<time datetime="2018-11-16T07:05:19.690Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-11-16</time>
+        <a href="/2018/11/21/回调函数浅解/" class="archive-article-date">
+  	<time datetime="2018-11-21T15:56:15.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-11-21</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+        <h2 id="1-什么是回调函数？"><a href="#1-什么是回调函数？" class="headerlink" title="1. 什么是回调函数？"></a>1. 什么是回调函数？</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">因为函数实际上是一种对象，它可以存储在变量中，通过参数传递给另一个函数，在函数内部创建，从函数中返回结果值，</span><br><span class="line">再者，函数是内置对象，我们可以将它作为参数传递给另一个函数，到函数中执行。简单说回调函数就是一个作为变量传递</span><br><span class="line">给另外一个函数的函数，它在主体函数执行完之后执行。例如：</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">A</span>有一个参数<span class="title">function</span> <span class="title">B</span>，<span class="title">function</span> <span class="title">B</span>会在<span class="title">function</span> <span class="title">A</span>执行完成之后被调用执行。</span></span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="2-如何使用回调函数？"><a href="#2-如何使用回调函数？" class="headerlink" title="2. 如何使用回调函数？"></a>2. 如何使用回调函数？</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">a</span>(<span class="params">callbackFunction</span>)</span>&#123;</span><br><span class="line">   alert(<span class="string">"这是parent函数a"</span>);</span><br><span class="line">   <span class="keyword">var</span> m =<span class="number">1</span>;</span><br><span class="line">   <span class="keyword">var</span> n=<span class="number">3</span>;</span><br><span class="line">  <span class="keyword">return</span> callbackFunction(m,n);</span><br><span class="line"> &#125;</span><br><span class="line"> <span class="function"><span class="keyword">function</span> <span class="title">b</span>(<span class="params">m,n</span>)</span>&#123;</span><br><span class="line">   alert(<span class="string">"这是回调函数b"</span>);</span><br><span class="line">   <span class="keyword">return</span> m+n;</span><br><span class="line"> &#125;</span><br><span class="line"> $(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">   <span class="keyword">var</span> result = a(b);</span><br><span class="line">   alert(<span class="string">"result = "</span>+ result);</span><br><span class="line"> &#125;);</span><br></pre></td></tr></table></figure>
+<p>执行顺序为：</p>
+<p>这是parent函数a</p>
+<p>这是回调函数b</p>
+<p>result = 4</p>
+<p>函数首先执行了主题函数a，之后调用了回调函数b，最后返回函数a的返回值。</p>
+<hr>
+<h2 id="3-应用：简易网页计算器"><a href="#3-应用：简易网页计算器" class="headerlink" title="3. 应用：简易网页计算器"></a>3. 应用：简易网页计算器</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 结构部分</span></span><br><span class="line">   <span class="comment">// 输入文本框</span></span><br><span class="line">&lt;p&gt;数字<span class="number">1</span>：&lt;input type=<span class="string">"text"</span> id=<span class="string">"num1"</span>&gt;&lt;/p&gt;</span><br><span class="line">&lt;p&gt;数字<span class="number">2</span>：&lt;input type=<span class="string">"text"</span> id=<span class="string">"num2"</span>&gt;&lt;/p&gt;</span><br><span class="line">   <span class="comment">// 运算按钮，触发事件</span></span><br><span class="line">&lt;p&gt;</span><br><span class="line">    &lt;input type=<span class="string">"button"</span> value=<span class="string">"相加"</span> onclick=<span class="string">"calc(add)"</span>&gt;</span><br><span class="line">    &lt;input type=<span class="string">"button"</span> value=<span class="string">"相减"</span> onclick=<span class="string">"calc(sub)"</span>&gt;</span><br><span class="line">    &lt;input type=<span class="string">"button"</span> value=<span class="string">"相乘"</span> onclick=<span class="string">"calc(mul)"</span>&gt;</span><br><span class="line">    &lt;input type=<span class="string">"button"</span> value=<span class="string">"相除"</span> onclick=<span class="string">"calc(div)"</span>&gt;</span><br><span class="line">&lt;<span class="regexp">/p&gt;</span></span><br><span class="line"><span class="regexp">   /</span><span class="regexp">/ 输出文本框</span></span><br><span class="line"><span class="regexp">&lt;p&gt;结果：&lt;input type="text" id="result" readonly&gt;&lt;/</span>p&gt;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 行为部分</span></span><br><span class="line">&lt;script&gt;</span><br><span class="line">   <span class="comment">// 主函数</span></span><br><span class="line">    <span class="function"><span class="keyword">function</span> <span class="title">calc</span>(<span class="params">func</span>) </span>&#123;</span><br><span class="line">        <span class="keyword">var</span> num1 = <span class="built_in">parseInt</span>(<span class="built_in">document</span>.getElementById(<span class="string">'num1'</span>).value);</span><br><span class="line">        <span class="keyword">var</span> num2 = <span class="built_in">parseInt</span>(<span class="built_in">document</span>.getElementById(<span class="string">'num2'</span>).value);</span><br><span class="line">        <span class="keyword">var</span> result = <span class="built_in">document</span>.getElementById(<span class="string">'result'</span>);</span><br><span class="line">        <span class="keyword">if</span> (<span class="built_in">isNaN</span>(num1) || <span class="built_in">isNaN</span>(num2))&#123;        <span class="comment">// 判断是否为数字</span></span><br><span class="line">            alert(<span class="string">'请输入数字'</span>);</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        result.value = func(num1,num2);</span><br><span class="line">    &#125;</span><br><span class="line">   <span class="comment">// 回调函数</span></span><br><span class="line">   <span class="function"><span class="keyword">function</span> <span class="title">add</span>(<span class="params">num1, num2</span>) </span>&#123;</span><br><span class="line">       <span class="keyword">return</span> num1 + num2;     <span class="comment">//加法</span></span><br><span class="line">   &#125;</span><br><span class="line">   <span class="function"><span class="keyword">function</span> <span class="title">sub</span>(<span class="params">num1, num2</span>) </span>&#123;</span><br><span class="line">       <span class="keyword">return</span> num1 - num2;     <span class="comment">//减法</span></span><br><span class="line">   &#125;</span><br><span class="line">   <span class="function"><span class="keyword">function</span> <span class="title">mul</span>(<span class="params">num1, num2</span>) </span>&#123;</span><br><span class="line">       <span class="keyword">return</span> num1 * num2;     <span class="comment">//乘法</span></span><br><span class="line">   &#125;</span><br><span class="line">   <span class="function"><span class="keyword">function</span> <span class="title">div</span>(<span class="params">num1, num2</span>) </span>&#123;</span><br><span class="line">       <span class="keyword">if</span> (num2 === <span class="number">0</span>)&#123;</span><br><span class="line">           alert(<span class="string">'除数不能为零'</span>);</span><br><span class="line">           <span class="keyword">return</span> <span class="string">''</span>;</span><br><span class="line">       &#125;</span><br><span class="line">       <span class="keyword">return</span> num1 / num2;     <span class="comment">//除法</span></span><br><span class="line">   &#125;</span><br><span class="line">&lt;<span class="regexp">/script&gt;</span></span><br></pre></td></tr></table></figure>
+<hr>
 
       
 
@@ -222,6 +225,17 @@
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">回调函数之简易网页计算器</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
 
       
@@ -272,7 +286,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2018/11/16/hello-world/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2018/11/21/回调函数浅解/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -286,15 +300,11 @@
   
 <nav id="article-nav">
   
-    <a href="/2018/11/21/回调函数浅解/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          回调函数浅解
-        
-      </div>
-    </a>
   
+    <a href="/2018/11/16/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Hello World</div>
+      <i class="icon-circle-right"></i>
+    </a>
   
 </nav>
 
